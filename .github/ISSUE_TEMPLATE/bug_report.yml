@@ -1,0 +1,56 @@
+name: Relatar um problema / Bug report
+description: Algo não funciona como esperado / Something does not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de abrir, procure uma issue igual. **Vulnerabilidades**: não use issue pública, siga o `SECURITY.md` do repositório.
+        Before opening, search for a duplicate. **Vulnerabilities**: do not use a public issue, follow the repository's `SECURITY.md`.
+  - type: input
+    id: package
+    attributes:
+      label: Pacote e versão / Package and version
+      description: "Ex.: @kelsoncm/tiptap-core 0.18.0, tiptap-webcomponent 0.1.2"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador / Browser
+      description: "Ex.: Firefox 140, Chrome 142, Safari iOS 18"
+    validations:
+      required: true
+  - type: input
+    id: framework
+    attributes:
+      label: Framework e integração / Framework and integration
+      description: "Ex.: Angular 22, Vue 3, HTML puro com o arquivo único, bundler Vite / plain HTML with the bundle file"
+  - type: textarea
+    id: options
+    attributes:
+      label: Opções do editor / Editor options
+      description: As opções passadas ao createEditorUI ou os atributos do web component. / The options given to createEditorUI or the web component attributes.
+      render: ts
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir / Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado / Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado obtido / Actual result
+      description: Inclua mensagens do console e, se possível, capturas de tela. Não inclua senhas nem dados pessoais. / Include console messages and, if possible, screenshots. Do not include passwords or personal data.
+    validations:
+      required: true

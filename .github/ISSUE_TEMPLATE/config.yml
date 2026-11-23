@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentação e exemplos / Documentation and examples
+    url: https://tiptap-by-kelsoncm.github.io/tiptap-core/
+    about: Exemplos ao vivo, opções, comandos e integração. / Live examples, options, commands and integration.
+  - name: Editor para o Moodle (editor_tiptap) / Moodle editor
+    url: https://github.com/moodle-by-kelsoncm/moodle-editor_tiptap/issues
+    about: Problemas do plugin do Moodle vão no repositório dele. / Moodle plugin issues go to its repository.

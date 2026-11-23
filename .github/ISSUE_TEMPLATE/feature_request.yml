@@ -1,0 +1,28 @@
+name: Sugerir um recurso / Feature request
+description: Uma ideia para o editor / An idea for the editor
+labels: ["enhancement"]
+body:
+  - type: input
+    id: package
+    attributes:
+      label: Pacote / Package
+      description: "tiptap-core, tiptap-webcomponent ou tiptap-ng"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema ou necessidade / Problem or need
+      description: O que você quer fazer e hoje não consegue? / What do you want to do that you cannot do today?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solução proposta / Proposed solution
+      description: Como imagina o recurso (opção, comando, botão, plugin). / How you picture the feature (option, command, button, plugin).
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas e exemplos / Alternatives and examples
+      description: Outros editores que fazem isso, links ou capturas. / Other editors that do it, links or screenshots.
