@@ -8,7 +8,7 @@ A **TipTap by KelsonCM** reúne um editor de texto rico sobre o [Tiptap 3](https
 |---|---|
 | [`tiptap-core`](https://github.com/tiptap-by-kelsoncm/tiptap-core) | `@kelsoncm/tiptap-core`: extensões, comandos, i18n, barra, menus, revisão, verificadores, importação e exportação. Também em arquivo único (UMD). |
 | [`tiptap-webcomponent`](https://github.com/tiptap-by-kelsoncm/tiptap-webcomponent) | `<kelsoncm-tiptap>`: web component que funciona em formulários de qualquer página (Django, PHP, Vue, React...). |
-| `tiptap-ng` | `<app-editor>`: componente Angular com Reactive Forms, `ngModel` e ngx-translate. |
+| [`tiptap-ng`](https://github.com/tiptap-by-kelsoncm/tiptap-ng) | `<app-editor>`: componente Angular com Reactive Forms, `ngModel` e ngx-translate. |
 
 Também usa o core: [`moodle-editor_tiptap`](https://github.com/moodle-by-kelsoncm/moodle-editor_tiptap), o editor para o Moodle, com plugins `tiptap_*`.
 
